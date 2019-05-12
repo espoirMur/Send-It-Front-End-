@@ -12,6 +12,7 @@ module.exports = {
     filename: "[name].[hash].bundle.js",
     chunkFilename: "[name].[chunkhash].bundle.js"
   },
+
   optimization: {
     splitChunks: {
       cacheGroups: {
